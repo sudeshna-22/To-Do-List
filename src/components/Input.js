@@ -35,11 +35,11 @@ export default function Input() {
               <input type="text" placeholder="Add a items" value={inputText} onChange={writeItem}/>
               <button onClick={addItem}> + </button>
 
-              <ol>
+              <ul>
                       {addedItems.map( (itemsValue, indexNumber) => {
                           return <List key={indexNumber} id={indexNumber} itemsValue={itemsValue} deleteItem={ deleteItem}/>
                       })}
-              </ol>
+              </ul>
           </div>      
     </div>
     )

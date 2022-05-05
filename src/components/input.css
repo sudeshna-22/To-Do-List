@@ -1,19 +1,11 @@
 .main_div{
     width: 100%;
     height: 100vh;
-    background: #6983aa;
+    background: #e2e7ee;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     text-align: center;
-}
-
-.center_div{
-    width: 25%;
-    height: 80vh;
-    background-color: #f4f4f4;
-    border-radius: 15px;
 }
 
 h1 {
@@ -32,7 +24,8 @@ input {
     background: transparent;
     font-size: 20px;
     font-weight: 500;
-    width: 60%;
+    color: black;
+    width: 80%;
     border-bottom: 2px solid;
     outline: none;
 }
@@ -42,7 +35,7 @@ button {
     width: 20px;
     border-radius: 50%;
     border-color: transparent;
-    background-color: #8566aa;
+    background-color: rgb(181, 38, 38);
     color: #fff;
     font-size: 15px;
     border: none;
@@ -54,7 +47,7 @@ button:hover{
     background-color: #20bf6b;
 }
 
-ol li {
+ul li {
     padding-left: 0px;
     text-align: left;
     font-size: 20px;
@@ -62,7 +55,7 @@ ol li {
     min-height: 40px;
     display: flex;
     align-items: center;
-    color: #8566aa;
+    color: black;
     text-transform: capitalize;
 }
 
@@ -71,18 +64,6 @@ ol li {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-}
-
-.todo_style .fa-times{
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #8566aa;
-    border-radius: 50%;
-    margin: 0 15px 0 35px;
-    color: aliceblue;
 }
 
 
